@@ -6,7 +6,15 @@ function App() {
   return (
     <div className="App">
       <nav className="nav">
-        <h1 className="name">Lisha's Pizza</h1>
+        <h1 className="name">
+          Lisha's Pizza
+          <img
+            className="myles"
+            src={require("./images/pizza.png")}
+            alt=""
+          />{" "}
+          {""}{" "}
+        </h1>
         <ul>
           <li>
             <Link className="links" to="/">
